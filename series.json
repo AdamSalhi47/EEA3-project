@@ -1,0 +1,16 @@
+[
+  {
+    "titre": "Breaking Bad",
+    "genre": "Drama",
+    "annee": 2008,
+    "note": 9.2,
+    "statut": "Vue"
+  },
+  {
+    "titre": "Severance",
+    "genre": "Drama",
+    "annee": 2022,
+    "note": 8.6,
+    "statut": "En cours"
+  }
+]
