@@ -1,0 +1,151 @@
+titre,genre,annee,note,statut
+Breaking Bad,Drama,2008,9.2,Vue
+Better Call Saul,Drama,2015,8.9,Vue
+Game of Thrones,Fantasy,2011,8.9,Vue
+Chernobyl,Drama,2019,9.3,Vue
+The Wire,Crime,2002,9.3,À voir
+The Sopranos,Crime,1999,9.2,À voir
+Band of Brothers,War,2001,9.4,Vue
+Severance,Science-Fiction,2022,8.6,En cours
+Dark,Science-Fiction,2017,8.7,Vue
+Stranger Things,Science-Fiction,2016,8.6,Vue
+True Detective,Crime,2014,8.9,Vue
+Fargo,Crime,2014,8.9,À voir
+Succession,Drama,2018,8.8,Vue
+The Last of Us,Drama,2023,8.7,Vue
+Mr. Robot,Thriller,2015,8.5,Vue
+Black Mirror,Science-Fiction,2011,8.7,En cours
+Sherlock,Mystery,2010,9.0,Vue
+Peaky Blinders,Crime,2013,8.8,Vue
+Narcos,Crime,2015,8.8,Vue
+Money Heist,Crime,2017,8.2,Vue
+Squid Game,Thriller,2021,8.0,Vue
+Attack on Titan,Anime,2013,9.1,Vue
+Death Note,Anime,2006,8.9,Vue
+Fullmetal Alchemist: Brotherhood,Anime,2009,9.1,Vue
+Arcane,Animation,2021,9.0,Vue
+The Boys,Action,2019,8.7,En cours
+Invincible,Animation,2021,8.7,En cours
+The Mandalorian,Science-Fiction,2019,8.6,Vue
+Andor,Science-Fiction,2022,8.4,Vue
+Westworld,Science-Fiction,2016,8.5,Vue
+The Expanse,Science-Fiction,2015,8.5,À voir
+Foundation,Science-Fiction,2021,7.6,En cours
+Silo,Science-Fiction,2023,8.1,En cours
+3 Body Problem,Science-Fiction,2024,7.5,Vue
+Fallout,Science-Fiction,2024,8.3,Vue
+Shogun,Drama,2024,8.7,Vue
+The Bear,Drama,2022,8.6,En cours
+Ted Lasso,Comedy,2020,8.8,Vue
+The Office,Comedy,2005,9.0,Vue
+Friends,Comedy,1994,8.9,Vue
+Brooklyn Nine-Nine,Comedy,2013,8.4,Vue
+Parks and Recreation,Comedy,2009,8.6,À voir
+Modern Family,Comedy,2009,8.5,Vue
+The Big Bang Theory,Comedy,2007,8.1,Vue
+How I Met Your Mother,Comedy,2005,8.3,Vue
+Rick and Morty,Animation,2013,9.1,En cours
+BoJack Horseman,Animation,2014,8.8,Vue
+Avatar: The Last Airbender,Animation,2005,9.3,Vue
+Vinland Saga,Anime,2019,8.8,Vue
+Demon Slayer,Anime,2019,8.6,En cours
+Jujutsu Kaisen,Anime,2020,8.5,En cours
+One Piece,Anime,1999,9.0,En cours
+Hunter x Hunter,Anime,2011,9.0,Vue
+Steins;Gate,Anime,2011,8.8,Vue
+Cowboy Bebop,Anime,1998,8.9,À voir
+Monster,Anime,2004,8.7,À voir
+The Crown,Drama,2016,8.6,Vue
+Downton Abbey,Drama,2010,8.7,À voir
+The Queen's Gambit,Drama,2020,8.5,Vue
+House of the Dragon,Fantasy,2022,8.4,En cours
+The Witcher,Fantasy,2019,8.0,En cours
+Vikings,Drama,2013,8.5,Vue
+The Last Kingdom,Drama,2015,8.5,Vue
+Rome,Drama,2005,8.7,À voir
+Spartacus,Action,2010,8.5,Vue
+Black Sails,Adventure,2014,8.2,À voir
+Mindhunter,Crime,2017,8.6,Vue
+Ozark,Crime,2017,8.5,Vue
+Hannibal,Thriller,2013,8.5,Vue
+Dexter,Crime,2006,8.6,Vue
+Prison Break,Action,2005,8.3,Vue
+Lost,Adventure,2004,8.3,Vue
+24,Action,2001,8.4,À voir
+Homeland,Thriller,2011,8.3,Vue
+The Americans,Drama,2013,8.4,À voir
+House,Drama,2004,8.7,Vue
+Grey's Anatomy,Drama,2005,7.6,En cours
+The Good Doctor,Drama,2017,8.0,Vue
+Suits,Drama,2011,8.4,Vue
+Mad Men,Drama,2007,8.7,À voir
+Boardwalk Empire,Crime,2010,8.6,À voir
+Sons of Anarchy,Crime,2008,8.6,Vue
+Yellowstone,Drama,2018,8.7,En cours
+1883,Drama,2021,8.7,Vue
+1923,Drama,2022,8.3,En cours
+The White Lotus,Drama,2021,8.0,En cours
+Euphoria,Drama,2019,8.3,En cours
+Fleabag,Comedy,2016,8.7,Vue
+Atlanta,Comedy,2016,8.6,À voir
+Barry,Comedy,2018,8.3,Vue
+Silicon Valley,Comedy,2014,8.5,Vue
+The IT Crowd,Comedy,2006,8.5,Vue
+Seinfeld,Comedy,1989,8.9,À voir
+Curb Your Enthusiasm,Comedy,2000,8.8,À voir
+Arrested Development,Comedy,2003,8.7,À voir
+Community,Comedy,2009,8.5,Vue
+Schitt's Creek,Comedy,2015,8.5,Vue
+Lupin,Crime,2021,7.5,Vue
+Call My Agent!,Comedy,2015,8.3,À voir
+The Bureau,Thriller,2015,8.7,À voir
+Les Revenants,Drama,2012,8.1,À voir
+Borgen,Drama,2010,8.5,À voir
+The Bridge,Crime,2011,8.6,À voir
+Babylon Berlin,Crime,2017,8.4,À voir
+How to Sell Drugs Online (Fast),Comedy,2019,7.8,Vue
+Gomorrah,Crime,2014,8.6,À voir
+Suburra: Blood on Rome,Crime,2017,7.9,À voir
+Elite,Drama,2018,7.2,Vue
+Vis a Vis,Thriller,2015,8.2,À voir
+The Ministry of Time,Science-Fiction,2015,8.2,À voir
+Crash Landing on You,Romance,2019,8.7,Vue
+Kingdom,Horror,2019,8.3,Vue
+All of Us Are Dead,Horror,2022,7.5,Vue
+Alice in Borderland,Thriller,2020,7.7,Vue
+Sweet Home,Horror,2020,7.3,En cours
+The Glory,Drama,2022,8.1,Vue
+My Name,Action,2021,7.8,Vue
+Extraordinary Attorney Woo,Drama,2022,8.6,Vue
+Signal,Crime,2016,8.5,À voir
+Vincenzo,Crime,2021,8.4,Vue
+Sacred Games,Crime,2018,8.5,Vue
+Delhi Crime,Crime,2019,8.5,À voir
+The Family Man,Action,2019,8.7,À voir
+Mirzapur,Crime,2018,8.4,À voir
+Panchayat,Comedy,2020,9.0,À voir
+3%,Science-Fiction,2016,7.3,Vue
+Sintonia,Drama,2019,6.7,À voir
+El Marginal,Crime,2016,8.2,À voir
+The Eternaut,Science-Fiction,2025,8.0,À voir
+Ezel,Drama,2009,8.6,À voir
+Resurrection: Ertugrul,Adventure,2014,7.9,À voir
+Ethos,Drama,2020,8.5,À voir
+Paranormal,Horror,2020,8.0,Vue
+Jinn,Fantasy,2019,3.6,À voir
+AlRawabi School for Girls,Drama,2021,7.4,Vue
+Doctor Who,Science-Fiction,2005,8.6,En cours
+Blackadder,Comedy,1983,8.6,À voir
+Luther,Crime,2010,8.4,Vue
+Broadchurch,Crime,2013,8.4,Vue
+Line of Duty,Crime,2012,8.7,À voir
+Slow Horses,Thriller,2022,8.2,En cours
+The Night Manager,Thriller,2016,8.0,Vue
+Bodyguard,Thriller,2018,8.0,Vue
+Killing Eve,Thriller,2018,8.1,Vue
+The Haunting of Hill House,Horror,2018,8.5,Vue
+Midnight Mass,Horror,2021,7.7,Vue
+From,Horror,2022,7.8,En cours
+The Penguin,Crime,2024,8.6,Vue
+Dune: Prophecy,Science-Fiction,2024,7.3,En cours
+Wednesday,Fantasy,2022,8.0,Vue
