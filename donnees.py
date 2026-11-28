@@ -1,18 +1,17 @@
-"""donnees.py — Gestion de la persistance (JSON et CSV) pour CineTrack."""
+"""donnees.py — Sauvegarde et chargement JSON / CSV pour CineTrack."""
 
 import csv
 import json
+import os
 
-FICHIER_JSON = "series.json"
-FICHIER_CSV = "series.csv"
+DOSSIER_APP = os.path.dirname(os.path.abspath(__file__))
+FICHIER_JSON = os.path.join(DOSSIER_APP, "series.json")
+FICHIER_CSV = os.path.join(DOSSIER_APP, "series.csv")
 CHAMPS = ["titre", "genre", "annee", "note", "statut"]
 
 
 def charger(fichier_json=FICHIER_JSON):
-    """Charge la liste des séries depuis un fichier JSON.
-    Si le fichier n'existe pas encore (1er lancement) ou est corrompu,
-    renvoie une liste vide sans planter.
-    """
+    """Charge la liste des séries depuis series.json (liste vide si absent)."""
     try:
         with open(fichier_json, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -22,13 +21,13 @@ def charger(fichier_json=FICHIER_JSON):
 
 
 def sauvegarder(series, fichier_json=FICHIER_JSON):
-    """Enregistre la liste des séries dans un fichier JSON (accents et indentation)."""
+    """Enregistre la liste des séries dans series.json."""
     with open(fichier_json, "w", encoding="utf-8") as f:
         json.dump(series, f, ensure_ascii=False, indent=2)
 
 
 def exporter_csv(series, fichier_csv=FICHIER_CSV):
-    """Exporte la collection vers un fichier CSV."""
+    """Exporte la liste des séries vers series.csv."""
     with open(fichier_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=CHAMPS)
         writer.writeheader()
@@ -37,35 +36,29 @@ def exporter_csv(series, fichier_csv=FICHIER_CSV):
 
 
 def importer_csv(fichier_csv=FICHIER_CSV):
-    """Importe une collection depuis un fichier CSV en reconvertissant les types."""
+    """Importe la liste des séries depuis series.csv."""
     try:
         series = []
         with open(fichier_csv, "r", newline="", encoding="utf-8") as f:
             for ligne in csv.DictReader(f):
-                annee_raw = str(ligne.get("annee", "")).strip()
+                titre = str(ligne.get("titre", "")).strip()
+                if not titre:
+                    continue
                 try:
-                    annee = int(annee_raw)
+                    annee = int(str(ligne.get("annee", 0)).strip())
                 except ValueError:
                     annee = 0
-
-                note_raw = str(ligne.get("note", "")).strip()
                 try:
-                    note = float(note_raw)
+                    note = float(str(ligne.get("note", 0.0)).strip())
                 except ValueError:
                     note = 0.0
-
-                statut = str(ligne.get("statut", "")).strip() or "À voir"
-                titre = str(ligne.get("titre", "")).strip()
-                genre = str(ligne.get("genre", "")).strip() or "Non classé"
-
-                if titre:
-                    series.append({
-                        "titre": titre,
-                        "genre": genre,
-                        "annee": annee,
-                        "note": note,
-                        "statut": statut,
-                    })
+                series.append({
+                    "titre": titre,
+                    "genre": str(ligne.get("genre", "")).strip() or "Non classé",
+                    "annee": annee,
+                    "note": note,
+                    "statut": str(ligne.get("statut", "")).strip() or "À voir",
+                })
         return series
     except (FileNotFoundError, OSError):
         return []
